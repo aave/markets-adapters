@@ -1,0 +1,65 @@
+{
+  "name": "market-adapters",
+  "version": "1.0.0",
+  "description": "Adapters smart contracts used on different Aave markets",
+  "scripts": {
+    "dev:environment": "npm i && tail -f /dev/null",
+    "buidler": "buidler",
+    "buidler-kovan": "buidler --network kovan",
+    "buidler-ropsten": "buidler --network ropsten",
+    "buidler-main": "buidler --network main",
+    "buidler help": "buidler help",
+    "compile": "buidler compile && npm run types-gen",
+    "types-gen": "buidler typechain",
+    "test": "buidler test",
+    "dev:deploy": "buidler dev-deployment",
+    "kovan:deploy-cpms": "npm run buidler-kovan mock-cpms-deployment",
+    "ropsten:deploy-cpms": "npm run buidler-ropsten mock-cpms-deployment",
+    "kovan:deploy-cpm-price-providers": "npm run buidler-kovan cpm-price-providers-deployment",
+    "ropsten:deploy-cpm-price-providers": "npm run buidler-ropsten cpm-price-providers-deployment",
+    "main:deploy-cpm-price-providers": "npm run buidler-main cpm-price-providers-deployment",
+    "dev:deploy-faucet-and-minters": "npm run buidler deploy-faucet-and-minters",
+    "kovan:deploy-faucet-and-minters": "npm run buidler-kovan deploy-faucet-and-minters",
+    "ropsten:deploy-faucet-and-minters": "npm run buidler-ropsten deploy-faucet-and-minters"
+  },
+  "devDependencies": {
+    "@nomiclabs/buidler": "1.2.0",
+    "@nomiclabs/buidler-ethers": "1.2.0",
+    "@nomiclabs/buidler-waffle": "1.2.0",
+    "@nomiclabs/buidler-vyper": "1.2.0",
+    "@types/mocha": "5.2.7",
+    "@types/chai": "4.1.3",
+    "@types/lowdb": "^1.0.9",
+    "@types/node": "^12.12.14",
+    "@openzeppelin/contracts": "3.0.0-beta.0",
+    "ethereum-waffle": "2.4.0",
+    "buidler-typechain": "0.0.5",
+    "chai": "4.2.0",
+    "lowdb": "1.0.0",
+    "ts-generator": "0.0.8",
+    "ts-node": "^8.5.4",
+    "typechain": "1.0.5",
+    "typechain-target-ethers": "1.0.4",
+    "typechain-target-truffle": "1.0.2",
+    "typechain-target-web3-v1": "1.0.4",
+    "typescript": "3.8.3",
+    "bignumber.js": "9.0.0",
+    "ethers": "4.0.46"
+  },
+  "author": "Aave",
+  "contributors": [
+    {
+      "name": "Ernesto Boado",
+      "email": "ernesto@aave.com"
+    },
+    {
+      "name": "Emilio Frangella",
+      "email": "emilio@aave.com"
+    },
+    {
+      "name": "Andrey Kozlov",
+      "email": "andrey@aave.com"
+    }
+  ],
+  "license": "AGPLv3"
+}

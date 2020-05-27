@@ -1,0 +1,182 @@
+{
+  "DAI/ETHMockCpm": {
+    "buidlerevm": {
+      "address": "0x7c2C195CD6D34B8F845992d380aADB2730bB9C6F",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "kovan": {
+      "address": "0x2e0086b5343101203ADeE40160ca1BD91E29fF75",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0xC245A7d35E652Cae438A1FdB13E474DF53DBB81D",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "",
+      "deployer": ""
+    }
+  },
+  "USDC/ETHMockCpm": {
+    "buidlerevm": {
+      "address": "0x0078371BDeDE8aAc7DeBfFf451B74c5EDB385Af7",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "kovan": {
+      "address": "0x34eA1aB2a43ee696914fc3C0d3e517fA666B9e8D",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0x2BD65323955D08eb600074291305881d1295c4D2",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "",
+      "deployer": ""
+    }
+  },
+  "sETH/ETHMockCpm": {
+    "kovan": {
+      "address": "0xCF457d8Bb8D8f54Af1ea1B3710231e89bd6CFbfe",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0xed4597DCd234867d7A260AD24bAb8253F64940a5",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "",
+      "deployer": ""
+    }
+  },
+  "LINK/ETHMockCpm": {
+    "kovan": {
+      "address": "0xFb9AAc184e79025f936E9C4EF3047Ad4889Df4a8",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0x8dcf3c8d4d69ca7C188c0A4cf219A1dcE1e510d7",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "",
+      "deployer": ""
+    }
+  },
+  "LEND/ETHMockCpm": {
+    "kovan": {
+      "address": "0x7615cd666F867406C64E558B9CCC3883e7EC9BA8",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0xcD5DE1EDD40aBBD6efE2C306276FF56f81Bc3151",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "",
+      "deployer": ""
+    }
+  },
+  "MKR/ETHMockCpm": {
+    "kovan": {
+      "address": "0xB31a1c30f38cD68e8177566Ef950d7bc3C81DaCF",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0xd8b7B99a9205FD0D0abFB6D7a2c13Db2681bff43",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "",
+      "deployer": ""
+    }
+  },
+  "DAI/ETHCpmPriceProvider": {
+    "kovan": {
+      "address": "0x2e40f738739138501cd9C6A20bdeC887A7bd40b6",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0x2D47584E62155b92174AbD22444eA178183925ee",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "buidlerevm": {
+      "address": "0x500D1d6A4c7D8Ae28240b47c8FCde034D827fD5e",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "main": {
+      "address": "0x1bAB293850289Bf161C5DA79ff3d1F02A950555b",
+      "deployer": "0x2fbB0c60a41cB7Ea5323071624dCEAD3d213D0Fa"
+    }
+  },
+  "USDC/ETHCpmPriceProvider": {
+    "kovan": {
+      "address": "0xA43E2bCe7e0330639509a17Ae418877E2a16d8Af",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0xcFd4B8B11C2207039938CaB09CC9a42e0f1b32c0",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "0x444315Ee92F2bb3579293C17B07194227fA99bF0",
+      "deployer": "0x2fbB0c60a41cB7Ea5323071624dCEAD3d213D0Fa"
+    }
+  },
+  "sETH/ETHCpmPriceProvider": {
+    "kovan": {
+      "address": "0x5d4Ec1588A69Bb34d6adbb8FBa12ec00FE6091da",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0x3572b7517CB734359f491C45B0957C0751261752",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "0x517D40E49660c7705b2e99eEFA6d7B0E9Ba5BF10",
+      "deployer": "0x2fbB0c60a41cB7Ea5323071624dCEAD3d213D0Fa"
+    }
+  },
+  "LINK/ETHCpmPriceProvider": {
+    "kovan": {
+      "address": "0x462459Ad5230E8DA3fb4dd3DbC26ffAf43262fe7",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0x8E6cB74d56fAa17a1a4bA84d41b1eF0296Cf981B",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "0xE2A639Beb647d7F709ca805ABa760bBEfdbE37e3",
+      "deployer": "0x2fbB0c60a41cB7Ea5323071624dCEAD3d213D0Fa"
+    }
+  },
+  "LEND/ETHCpmPriceProvider": {
+    "kovan": {
+      "address": "0x94A4409F9F0F2480130e4d4C9cA3e1800e5e8B34",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0xD4B825Ed05a7b88b3Fa64eb1Bc68d6aaeF8115c1",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "0xF4C8Db2d999b024bBB6c6022566503eD41f2AC1E",
+      "deployer": "0x2fbB0c60a41cB7Ea5323071624dCEAD3d213D0Fa"
+    }
+  },
+  "MKR/ETHCpmPriceProvider": {
+    "kovan": {
+      "address": "0x797E597E395A1F10E9d676373fF341aC9B967458",
+      "deployer": "0x4206925f7652a5af8a0F48aB714ABbd1EF27D916"
+    },
+    "ropsten": {
+      "address": "0x548D63a3Da5Ce7a606f1d26b2258337fCf00Cc31",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    },
+    "main": {
+      "address": "0xEe40a5E8F3732bE6ECDb5A90e23D0b7bF0D4a73c",
+      "deployer": "0x2fbB0c60a41cB7Ea5323071624dCEAD3d213D0Fa"
+    }
+  }
+}
