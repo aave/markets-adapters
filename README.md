@@ -22,7 +22,7 @@ The deployed contracts by network can be found on the [deployed-contracts.json](
 
 Of those, only the ones including [CpmPriceProvider](./contracts/proxies/CpmPriceProvider.sol) in their name are deployed in the main Ethereum networks and connected to the Aave protocol. 
 
-The audit of this [CpmPriceProvider](./contracts/proxies/CpmPriceProvider.sol) contract can be found [here]() and more information about it [here](https://docs.aave.com/developers/developing-on-aave/the-protocol/price-oracle) on the **Uniswap Market** tab.
+An audit performed by Consensys Diligence of the [CpmPriceProvider](./contracts/proxies/CpmPriceProvider.sol) contract can be found [here](https://diligence.consensys.net/audits/2020/05/aave-cpm-price-provider/) and more information about it [here](https://docs.aave.com/developers/developing-on-aave/the-protocol/price-oracle) on the **Uniswap Market** tab. In the case of the new Aave Uniswap Market, this is the only piece of logic added to the protocol.
 
 ## License
 The code on this repository is under the AGPL v3 license
