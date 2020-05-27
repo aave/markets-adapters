@@ -15,14 +15,14 @@ The folder structure is:
 ## Available npm scripts
 `docker-compose up` will start a docker container to which is possible to connect by using `docker-compose exec contracts-env bash` from another console. From withing that container, it's possible to execute all the available npm scripts contained on the *package.json* in order to compile the contracts, execute the tests, generate the Typechain types or deploy to buidlerevm, Kovan, Ropsten and Main networks.
 
-For example, to execute the tests on the **CpmPriceProvider**, the available npm script is **npm run test**.
+For example, to execute the tests on the [CpmPriceProvider](./contracts/proxies/CpmPriceProvider.sol), the available npm script is **npm run test**.
 
 ## Deployed contracts
 The deployed contracts by network can be found on the [deployed-contracts.json](./deployed-contracts.json) file.
 
-Of those, only the ones including *CpmPriceProvider* in their name are deployed in the main Ethereum networks and connected to the Aave protocol. 
+Of those, only the ones including [CpmPriceProvider](./contracts/proxies/CpmPriceProvider.sol) in their name are deployed in the main Ethereum networks and connected to the Aave protocol. 
 
-The audit of this **CpmPriceProvider** contract can be found [here]() and more information about it [here](https://docs.aave.com/developers/developing-on-aave/the-protocol/price-oracle) on the *Uniswap Market* tab.
+The audit of this [CpmPriceProvider](./contracts/proxies/CpmPriceProvider.sol) contract can be found [here]() and more information about it [here](https://docs.aave.com/developers/developing-on-aave/the-protocol/price-oracle) on the **Uniswap Market** tab.
 
 ## License
 The code on this repository is under the AGPL v3 license
